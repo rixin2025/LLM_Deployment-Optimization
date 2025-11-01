@@ -1,0 +1,105 @@
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cuda module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.driver module instead.
+<frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+[2025-10-26 17:25:45] INFO config.py:54: PyTorch version 2.7.1 available.
+2025-10-26 17:25:48,221 - INFO - flashinfer.jit: Prebuilt kernels not found, using JIT backend
+[TensorRT-LLM] TensorRT LLM version: 1.0.0
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set bert_attention_plugin to auto.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set gpt_attention_plugin to float16.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set gemm_plugin to float16.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set gemm_swiglu_plugin to None.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set fp8_rowwise_gemm_plugin to None.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set nccl_plugin to auto.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set lora_plugin to None.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set dora_plugin to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set moe_plugin to auto.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set mamba_conv1d_plugin to auto.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set low_latency_gemm_plugin to None.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set low_latency_gemm_swiglu_plugin to None.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set gemm_allreduce_plugin to None.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set context_fmha to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set bert_context_fmha_fp32_acc to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set remove_input_padding to True.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set norm_quant_fusion to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set reduce_fusion to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set user_buffer to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set tokens_per_block to 32.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set use_paged_context_fmha to True.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set use_fp8_context_fmha to True.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set fuse_fp4_quant to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set multiple_profiles to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set paged_state to True.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set streamingllm to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set use_fused_mlp to True.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set pp_reduce_scatter to False.
+[10/26/2025-17:25:48] [TRT-LLM] [W] Implicitly setting QWenConfig.seq_length = 2048
+[10/26/2025-17:25:48] [TRT-LLM] [W] Implicitly setting QWenConfig.qwen_type = qwen
+[10/26/2025-17:25:48] [TRT-LLM] [W] Implicitly setting QWenConfig.moe_intermediate_size = 0
+[10/26/2025-17:25:48] [TRT-LLM] [W] Implicitly setting QWenConfig.moe_shared_expert_intermediate_size = 0
+[10/26/2025-17:25:48] [TRT-LLM] [W] Implicitly setting QWenConfig.tie_word_embeddings = False
+[10/26/2025-17:25:48] [TRT-LLM] [I] Compute capability: (7, 5)
+[10/26/2025-17:25:48] [TRT-LLM] [I] SM count: 68
+[10/26/2025-17:25:48] [TRT-LLM] [I] SM clock: 2145 MHz
+[10/26/2025-17:25:48] [TRT-LLM] [I] int4 TFLOPS: 597
+[10/26/2025-17:25:48] [TRT-LLM] [I] int8 TFLOPS: 298
+[10/26/2025-17:25:48] [TRT-LLM] [I] fp8 TFLOPS: 0
+[10/26/2025-17:25:48] [TRT-LLM] [I] float16 TFLOPS: 149
+[10/26/2025-17:25:48] [TRT-LLM] [I] bfloat16 TFLOPS: 0
+[10/26/2025-17:25:48] [TRT-LLM] [I] float32 TFLOPS: 18
+[10/26/2025-17:25:48] [TRT-LLM] [I] Total Memory: 22 GiB
+[10/26/2025-17:25:48] [TRT-LLM] [I] Memory clock: 7000 MHz
+[10/26/2025-17:25:48] [TRT-LLM] [I] Memory bus width: 352
+[10/26/2025-17:25:48] [TRT-LLM] [I] Memory bandwidth: 616 GB/s
+[10/26/2025-17:25:48] [TRT-LLM] [I] NVLink is active: False
+[10/26/2025-17:25:48] [TRT-LLM] [I] PCIe speed: 2500 Mbps
+[10/26/2025-17:25:48] [TRT-LLM] [I] PCIe link width: 16
+[10/26/2025-17:25:48] [TRT-LLM] [I] PCIe bandwidth: 5 GB/s
+[10/26/2025-17:25:48] [TRT-LLM] [W] Provided but not required tensors: {'transformer.layers.21.attention.logn_scaling', 'transformer.layers.11.attention.logn_scaling', 'transformer.layers.28.attention.logn_scaling', 'transformer.layers.1.attention.logn_scaling', 'rotary_inv_freq', 'transformer.layers.10.attention.logn_scaling', 'transformer.layers.14.attention.logn_scaling', 'transformer.layers.3.attention.logn_scaling', 'transformer.layers.9.attention.logn_scaling', 'embed_positions', 'transformer.layers.18.attention.logn_scaling', 'transformer.layers.23.attention.logn_scaling', 'transformer.layers.27.attention.logn_scaling', 'transformer.layers.24.attention.logn_scaling', 'transformer.layers.19.attention.logn_scaling', 'transformer.layers.2.attention.logn_scaling', 'transformer.layers.29.attention.logn_scaling', 'transformer.layers.13.attention.logn_scaling', 'transformer.layers.17.attention.logn_scaling', 'transformer.layers.31.attention.logn_scaling', 'transformer.layers.5.attention.logn_scaling', 'transformer.layers.12.attention.logn_scaling', 'transformer.layers.7.attention.logn_scaling', 'transformer.layers.4.attention.logn_scaling', 'transformer.layers.0.attention.logn_scaling', 'transformer.layers.8.attention.logn_scaling', 'transformer.layers.16.attention.logn_scaling', 'transformer.layers.22.attention.logn_scaling', 'embed_positions_for_gpt_attention', 'transformer.layers.6.attention.logn_scaling', 'transformer.layers.20.attention.logn_scaling', 'transformer.layers.30.attention.logn_scaling', 'transformer.layers.26.attention.logn_scaling', 'transformer.layers.25.attention.logn_scaling', 'transformer.layers.15.attention.logn_scaling'}
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set dtype to float16.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set paged_kv_cache to True.
+[10/26/2025-17:25:48] [TRT-LLM] [W] Overriding paged_state to False
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set paged_state to False.
+[10/26/2025-17:25:48] [TRT-LLM] [W] remove_input_padding is enabled, while opt_num_tokens is not set, setting to max_batch_size*max_beam_width. 
+
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set use_fp8_context_fmha to False.
+[10/26/2025-17:25:48] [TRT-LLM] [I] Set use_paged_context_fmha to False.
+[10/26/2025-17:25:48] [TRT-LLM] [W] Context FMHA is disabled, FP8 Context FMHA and Paged Context FMHA are disabled.
+[10/26/2025-17:25:52] [TRT] [I] [MemUsageChange] Init CUDA: CPU -12, GPU +0, now: CPU 5748, GPU 160 (MiB)
+[10/26/2025-17:25:54] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +650, GPU +2, now: CPU 6600, GPU 162 (MiB)
+[10/26/2025-17:25:54] [TRT-LLM] [I] Set nccl_plugin to None.
+[10/26/2025-17:25:54] [TRT-LLM] [I] Total time of constructing network from module object 6.144292831420898 seconds
+[10/26/2025-17:25:54] [TRT-LLM] [I] Total optimization profiles added: 1
+[10/26/2025-17:25:54] [TRT-LLM] [I] Total time to initialize the weights in network Unnamed Network 0: 00:00:00
+[10/26/2025-17:25:54] [TRT-LLM] [I] Build TensorRT engine Unnamed Network 0
+[10/26/2025-17:25:54] [TRT] [I] BuilderFlag::kTF32 is set but hardware does not support TF32. Disabling TF32.
+[10/26/2025-17:25:54] [TRT] [W] Unused Input: position_ids
+[10/26/2025-17:25:56] [TRT] [W] [RemoveDeadLayers] Input Tensor position_ids is unused or used only at compile-time, but is not being removed.
+[10/26/2025-17:25:56] [TRT] [I] BuilderFlag::kTF32 is set but hardware does not support TF32. Disabling TF32.
+[10/26/2025-17:25:56] [TRT] [I] Global timing cache in use. Profiling results in this builder pass will be stored.
+[10/26/2025-17:25:56] [TRT] [I] Compiler backend is used during engine build.
+[10/26/2025-17:26:03] [TRT] [I] [GraphReduction] The approximate region cut reduction algorithm is called.
+[10/26/2025-17:26:03] [TRT] [I] Detected 20 inputs and 1 output network tensors.
+[10/26/2025-17:26:15] [TRT] [I] Total Host Persistent Memory: 105840 bytes
+[10/26/2025-17:26:15] [TRT] [I] Total Device Persistent Memory: 0 bytes
+[10/26/2025-17:26:15] [TRT] [I] Max Scratch Memory: 6979455360 bytes
+[10/26/2025-17:26:15] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 530 steps to complete.
+[10/26/2025-17:26:15] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 47.8843ms to assign 18 blocks to 530 nodes requiring 7315072000 bytes.
+[10/26/2025-17:26:15] [TRT] [I] Total Activation Memory: 7315072000 bytes
+[10/26/2025-17:26:15] [TRT] [I] Total Weights Memory: 15446876800 bytes
+[10/26/2025-17:26:15] [TRT] [I] Compiler backend is used during engine execution.
+[10/26/2025-17:26:16] [TRT] [I] Engine generation completed in 19.3386 seconds.
+[10/26/2025-17:26:16] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 0 MiB, GPU 14731 MiB
+[10/26/2025-17:26:31] [TRT-LLM] [I] Total time of building Unnamed Network 0: 00:00:36
+[10/26/2025-17:26:31] [TRT] [I] Serialized 27 bytes of code generator cache.
+[10/26/2025-17:26:31] [TRT] [I] Serialized 169816 bytes of compilation cache.
+[10/26/2025-17:26:31] [TRT] [I] Serialized 14 timing cache entries
+[10/26/2025-17:26:31] [TRT-LLM] [I] Timing cache serialized to model.cache
+[10/26/2025-17:26:31] [TRT-LLM] [I] Build phase peak memory: 38712.87 MB, children: 8221.02 MB
+[10/26/2025-17:26:31] [TRT-LLM] [I] Serializing engine to ./model_zoo_trt_llm/trt_engines/Qwen-VL-7B-Chat/rank0.engine...
+[10/26/2025-17:26:59] [TRT-LLM] [I] Engine serialized. Total time: 00:00:28
+[10/26/2025-17:27:01] [TRT-LLM] [I] Total time of building all engines: 00:01:12
